@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+body {
+    font-family: "Outfit", sans-serif;
+    padding: 20px;
+    background-color: #dddedf;    
+}
+
+h1 {
+    text-align: center;
+}
+
+#formulario {
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    width: 80%;
+    max-width: 500px;
+}
+
+.iform {
+    margin-bottom: 15px;}
+
+.iform label {
+    display: block;
+    font-size: 18px;
+    color: #2c3e50;
+    margin-bottom: 5px;
+}
+
+.iform input {
+    width: calc(100% - 20px);
+    margin-bottom: 15px;
+    border: 2px solid #ddd;
+    box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+.iset {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+}
+
+.iset:hover {
+background-color: rgb(215, 250, 244);
+}
+
+a {
+    color: rgba(0, 0, 0, 0.815); /* Cambia el color a negro translúcido */
+    transition: color 0.3s ease; /* Agrega una transición suave al cambiar el color */
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: background-color 0.3s ease;
+    margin: auto;
+}
+
+a:hover {
+    color: rgb(255, 255, 255); /* Cambia el color a negro sólido al pasar el mouse */
+    background-color: #5FB49C;
+    border-radius: 5px;
+}
+
+.iform select {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+    background-color: #f8f9fa;
+    color: #495057;
+}
+
+.iform label {
+    display: block;
+    margin-top: 5px;
+}
+
+.btn-inicio{
+    padding-top: 15%;
+    margin: 0 auto;
+    display: flex;
+    width: 25%;
+    font-size: 30px;
+}
+
+.btn12{
+    padding: 10px 20px;
+    margin: 0 auto;
+    display: inline-block;
+    background-color: #98C1D9; /* Color de fondo */
+    color: black; /* Color del texto */
+    text-decoration: none; /* Sin subrayado */
+    border-radius: 5px; /* Bordes redondeados */
+    font-size: 20px; /* Tamaño de la fuente */
+    transition: background-color 0.3s ease; /* Transición suave */
+}
+
+.create{
+    color: #3D5A80;
+    text-shadow: 1px 1px 2px #fff;
+    margin-bottom: 20px;
+}
